@@ -1,20 +1,22 @@
+**Languages:** [English](Readme.md) · [Español](README.es.md)
+
 # MeterReadings
 
 <!-- BEGIN project-context -->
 
-## Antigüedad y evidencia
+## Historical dates and evidence
 
-**Año de referencia de esta versión: 2021.** Se toma el archivo de código o configuración más reciente con una fecha histórica recuperable; no se ha podido confirmar la fecha exacta de creación.
+**Reference year for this version: 2021.** This uses the most recent source or configuration file with a recoverable historical date; the exact creation date could not be confirmed.
 
-- Archivo más reciente datable: **2021-01-05**, [`pieces/MeterReadings/Program.cs`](Program.cs); fecha de modificación conservada.
-- Primer registro del repositorio Git original que contiene este código: **2020-05-10**. Puede corresponder a una importación; no prueba cuándo se escribió por primera vez.
-- Referencia adicional: destino `netcoreapp3.1` en [`pieces/MeterReadings/MeterReadings.csproj`](MeterReadings.csproj); su [versión estable se publicó el 2019-12-03](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core). Es una pista de generación tecnológica; pudieron existir versiones preliminares anteriores.
+- Most recent datable file: **2021-01-05**, [`pieces/MeterReadings/Program.cs`](Program.cs); preserved modification timestamp.
+- First record in the original Git repository containing this code: **2020-05-10**. This may be an import and does not establish when the code was first written.
+- Additional reference: target `netcoreapp3.1` in [`pieces/MeterReadings/MeterReadings.csproj`](MeterReadings.csproj); its [stable release was published on 2019-12-03](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core). This indicates the technology generation; earlier preview releases may have existed.
 
-## Por qué merece la pena mirarlo
+## Why this is worth exploring
 
-Agrupa lecturas de varias hojas por bloque y vivienda y contempla viviendas sin datos. Es una idea práctica de conciliación de información para producir un informe ordenado.
+Groups readings from multiple sheets by building and dwelling and accounts for dwellings without data. It is a practical reconciliation idea for producing an ordered report.
 
-Puntos de entrada al código:
+Code entry points:
 
 - [`Program.cs`](Program.cs)
 
